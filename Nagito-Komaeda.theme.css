@@ -1,0 +1,79 @@
+/**
+* @name Nagito-Komaeda
+* @version 1.0
+* @description based on Chillax (but this specific theme uses FrostedGlass by Gibbu) by ChillaxSquad
+* @author moshin (but credits to Gibbu and ChillaxSquad)
+* @invite ZHthyCw
+* @Source https://github.com/DiscordStyles/FrostedGlass
+* @website https://gibbu.me
+*/
+@import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
+:root {
+
+/* Background */
+
+--background-image: url('https://wallpapercave.com/dwp1x/wp5274882.jpg');
+--background-image-size: cover;
+--background-image-position: center;
+
+/* Popout-Modal */
+
+--popout-modal-image: url('https://wallpapercave.com/dwp1x/wp5274884.jpg');
+--popout-modal-size: cover;
+--popout-modal-position: center;
+
+/* Discord-Logo */
+
+--home-button-image: url('https://wallpapercave.com/dwp1x/wp4396210.png');
+--home-button-size: cover;
+--home-button-position: center;
+
+/* Brightness */
+
+--serverlist-brightness: 0.55;
+--left-brightness: 0.55;
+--middle-brightness: 0.55;
+--right-brightness: 0;
+--popout-modal-brightness: 0.55;
+
+/* Gradients */
+
+--gradient-primary: 0,100,10;
+--gradient-secondary: 0,0,0;
+--gradient-direction: 320deg;
+
+/* Window-Padding */
+
+--window-padding: 15px;
+--window-roundness: 15px;
+
+/* Scrollbar */
+
+--scrollbar-colour: #00000000;
+
+/* Links */
+
+--link-colour: #00640AFF;
+
+/* Radial-Status */
+
+--rs-small-spacing: 2px;
+--rs-medium-spacing: 3px;
+--rs-large-spacing: 4px;
+--rs-small-width: 2px;
+--rs-medium-width: 3px;
+--rs-large-width: 4px;
+--rs-avatar-shape: 50%;
+--rs-online-color: #43b581;
+--rs-idle-color: #faa61a;
+--rs-dnd-color: #f04747;
+--rs-offline-color: #636b75;
+--rs-streaming-color: #643da7;
+--rs-invisible-color: #747f8d;
+--rs-phone-visible: block;
+
+/* Dont-Touch */
+--update-notice-1: none;
+}
