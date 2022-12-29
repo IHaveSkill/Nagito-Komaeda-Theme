@@ -9,7 +9,6 @@
 */
 @import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
-@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
 :root {
 
 /* Background */
@@ -46,8 +45,8 @@
 
 /* Window-Padding */
 
---window-padding: 15px;
---window-roundness: 15px;
+--window-padding: 0px;
+--window-roundness: 5px;
 
 /* Scrollbar */
 
